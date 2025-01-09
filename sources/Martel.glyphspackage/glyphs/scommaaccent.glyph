@@ -1,0 +1,49 @@
+{
+color = 5;
+glyphname = scommaaccent;
+layers = (
+{
+layerId = "E777F328-EA17-4AE7-9EBA-8002E537BA4F";
+name = Light;
+shapes = (
+{
+ref = s;
+},
+{
+pos = (54,0);
+ref = commaaccent;
+}
+);
+width = 512;
+},
+{
+layerId = "39185045-6A8C-415A-8312-7B8F11386A4C";
+name = Regular;
+shapes = (
+{
+ref = s;
+},
+{
+pos = (47,0);
+ref = commaaccent;
+}
+);
+width = 512;
+},
+{
+layerId = "B26750D4-52C5-4F85-819B-BFB2F142DAD5";
+name = Bold;
+shapes = (
+{
+ref = s;
+},
+{
+pos = (93,0);
+ref = commaaccent;
+}
+);
+width = 535;
+}
+);
+unicode = 537;
+}

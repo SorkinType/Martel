@@ -1,0 +1,67 @@
+{
+color = 5;
+glyphname = ugrave;
+layers = (
+{
+layerId = "E777F328-EA17-4AE7-9EBA-8002E537BA4F";
+name = Light;
+shapes = (
+{
+ref = u;
+},
+{
+pos = (79,0);
+ref = gravecomb;
+}
+);
+width = 631;
+},
+{
+layerId = "39185045-6A8C-415A-8312-7B8F11386A4C";
+name = Regular;
+shapes = (
+{
+ref = u;
+},
+{
+pos = (100,0);
+ref = gravecomb;
+}
+);
+width = 631;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(416,696,l),
+(262,904,l),
+(137,809,l),
+(162,773,o),
+(201,734,o),
+(244,704,cs),
+(287,673,o),
+(333,651,o),
+(373,653,c)
+);
+}
+);
+};
+layerId = "B26750D4-52C5-4F85-819B-BFB2F142DAD5";
+name = Bold;
+shapes = (
+{
+ref = u;
+},
+{
+pos = (72,0);
+ref = gravecomb;
+}
+);
+width = 650;
+}
+);
+unicode = 249;
+}

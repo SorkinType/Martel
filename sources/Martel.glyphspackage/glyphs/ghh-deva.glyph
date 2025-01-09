@@ -1,0 +1,87 @@
+{
+glyphname = "ghh-deva";
+kernLeft = "ga-deva";
+layers = (
+{
+layerId = "E777F328-EA17-4AE7-9EBA-8002E537BA4F";
+name = Light;
+shapes = (
+{
+ref = "g-deva";
+},
+{
+pos = (311,198);
+ref = "nukta-deva";
+}
+);
+width = 274;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(256,-28,l),
+(332,51,l),
+(255,129,l),
+(178,50,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(327,575,l),
+(327,590,l),
+(295,650,l),
+(-31,650,l),
+(-31,634,l),
+(0,575,l),
+(143,575,l),
+(143,328,l),
+(45,341,l),
+(41,330,o),
+(39,316,o),
+(39,300,cs),
+(39,256,o),
+(73,177,o),
+(153,177,cs),
+(225,177,o),
+(236,248,o),
+(236,284,cs),
+(236,372,o),
+(229,485,o),
+(220,575,c)
+);
+}
+);
+};
+layerId = "39185045-6A8C-415A-8312-7B8F11386A4C";
+name = Regular;
+shapes = (
+{
+ref = "g-deva";
+},
+{
+pos = (306,193);
+ref = "nukta-deva";
+}
+);
+width = 295;
+},
+{
+layerId = "B26750D4-52C5-4F85-819B-BFB2F142DAD5";
+name = Bold;
+shapes = (
+{
+ref = "g-deva";
+},
+{
+pos = (306,176);
+ref = "nukta-deva";
+}
+);
+width = 325;
+}
+);
+}

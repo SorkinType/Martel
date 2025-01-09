@@ -1,0 +1,50 @@
+{
+glyphname = "tth-deva";
+kernLeft = "ttha-deva";
+layers = (
+{
+layerId = "E777F328-EA17-4AE7-9EBA-8002E537BA4F";
+name = Light;
+shapes = (
+{
+ref = "ttha-deva";
+},
+{
+alignment = -1;
+pos = (427,50);
+ref = "halant-deva";
+}
+);
+width = 548;
+},
+{
+layerId = "39185045-6A8C-415A-8312-7B8F11386A4C";
+name = Regular;
+shapes = (
+{
+ref = "ttha-deva";
+},
+{
+pos = (441,0);
+ref = "halant-deva";
+}
+);
+width = 612;
+},
+{
+layerId = "B26750D4-52C5-4F85-819B-BFB2F142DAD5";
+name = Bold;
+shapes = (
+{
+ref = "ttha-deva";
+},
+{
+alignment = -1;
+pos = (452,-32);
+ref = "halant-deva";
+}
+);
+width = 644;
+}
+);
+}

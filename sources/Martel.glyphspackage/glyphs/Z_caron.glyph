@@ -1,0 +1,86 @@
+{
+color = 5;
+glyphname = Zcaron;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(93,759,l),
+(79,606,l),
+(119,600,l),
+(157,709,l),
+(540,718,l),
+(482,647,l),
+(48,34,l),
+(60,0,l),
+(595,0,l),
+(630,170,l),
+(591,179,l),
+(535,56,l),
+(131,42,l),
+(193,121,l),
+(620,726,l),
+(608,759,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(357,848,l),
+(227,938,l),
+(195,917,l),
+(323,796,l),
+(391,796,l),
+(518,918,l),
+(489,938,l)
+);
+}
+);
+};
+layerId = "E777F328-EA17-4AE7-9EBA-8002E537BA4F";
+name = Light;
+shapes = (
+{
+ref = Z;
+},
+{
+pos = (97,0);
+ref = caroncomb.case;
+}
+);
+width = 660;
+},
+{
+layerId = "39185045-6A8C-415A-8312-7B8F11386A4C";
+name = Regular;
+shapes = (
+{
+ref = Z;
+},
+{
+pos = (69,0);
+ref = caroncomb.case;
+}
+);
+width = 660;
+},
+{
+layerId = "B26750D4-52C5-4F85-819B-BFB2F142DAD5";
+name = Bold;
+shapes = (
+{
+ref = Z;
+},
+{
+pos = (80,0);
+ref = caroncomb.case;
+}
+);
+width = 678;
+}
+);
+unicode = 381;
+}

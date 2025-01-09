@@ -1,0 +1,90 @@
+{
+color = 5;
+glyphname = gcommaaccent;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(210,875,o),
+(157,824,o),
+(157,760,cs),
+(157,696,o),
+(210,645,o),
+(276,645,cs),
+(343,645,o),
+(396,696,o),
+(396,760,cs),
+(396,824,o),
+(343,875,o),
+(276,875,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(317,833,o),
+(351,801,o),
+(351,759,cs),
+(351,716,o),
+(317,685,o),
+(276,685,cs),
+(236,685,o),
+(202,716,o),
+(202,759,cs),
+(202,801,o),
+(236,833,o),
+(276,833,cs)
+);
+}
+);
+};
+layerId = "E777F328-EA17-4AE7-9EBA-8002E537BA4F";
+name = Light;
+shapes = (
+{
+ref = g;
+},
+{
+angle = 180;
+pos = (496,546);
+ref = commaaccent;
+}
+);
+width = 587;
+},
+{
+layerId = "39185045-6A8C-415A-8312-7B8F11386A4C";
+name = Regular;
+shapes = (
+{
+ref = g;
+},
+{
+angle = 180;
+pos = (481,631);
+ref = commaaccent;
+}
+);
+width = 587;
+},
+{
+layerId = "B26750D4-52C5-4F85-819B-BFB2F142DAD5";
+name = Bold;
+shapes = (
+{
+ref = g;
+},
+{
+angle = 180;
+pos = (471,631);
+ref = commaaccent;
+}
+);
+width = 623;
+}
+);
+unicode = 291;
+}

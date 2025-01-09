@@ -1,0 +1,85 @@
+{
+glyphname = "nukta-deva";
+layers = (
+{
+anchors = (
+{
+name = _nukta;
+pos = (-153,-128);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(-152,-222,l),
+(-75,-142,l),
+(-153,-65,l),
+(-230,-143,l)
+);
+}
+);
+};
+layerId = "E777F328-EA17-4AE7-9EBA-8002E537BA4F";
+name = Light;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-216,-128,l),
+(-153,-191,l),
+(-90,-128,l),
+(-153,-65,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _nukta;
+pos = (-153,-143);
+}
+);
+layerId = "39185045-6A8C-415A-8312-7B8F11386A4C";
+name = Regular;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-230,-143,l),
+(-152,-222,l),
+(-75,-142,l),
+(-153,-65,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _nukta;
+pos = (-153,-176);
+}
+);
+layerId = "B26750D4-52C5-4F85-819B-BFB2F142DAD5";
+name = Bold;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-265,-176,l),
+(-153,-288,l),
+(-42,-176,l),
+(-153,-65,l)
+);
+}
+);
+width = 0;
+}
+);
+unicode = 2364;
+}

@@ -1,0 +1,96 @@
+{
+glyphname = "ll_ra-deva";
+kernLeft = "lla-deva";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(169,-64,l),
+(214,-104,l),
+(400,32,l),
+(548,-116,l),
+(582,-90,l),
+(403,84,l)
+);
+}
+);
+};
+layerId = "E777F328-EA17-4AE7-9EBA-8002E537BA4F";
+name = Light;
+shapes = (
+{
+ref = "ll-deva";
+},
+{
+pos = (710,115);
+ref = "rakar-deva";
+}
+);
+width = 623;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(184,-109,l),
+(255,-173,l),
+(436,-31,l),
+(580,-176,l),
+(628,-140,l),
+(433,49,l)
+);
+}
+);
+};
+layerId = "39185045-6A8C-415A-8312-7B8F11386A4C";
+name = Regular;
+shapes = (
+{
+ref = "ll-deva";
+},
+{
+pos = (740,80);
+ref = "rakar-deva";
+}
+);
+width = 665;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(436,-31,l),
+(580,-176,l),
+(628,-140,l),
+(433,49,l),
+(184,-109,l),
+(255,-173,l)
+);
+},
+{
+ref = "ll-deva";
+}
+);
+};
+layerId = "B26750D4-52C5-4F85-819B-BFB2F142DAD5";
+name = Bold;
+shapes = (
+{
+ref = "ll-deva";
+},
+{
+pos = (740,69);
+ref = "rakar-deva";
+}
+);
+width = 695;
+}
+);
+}

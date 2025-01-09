@@ -1,0 +1,73 @@
+{
+color = 5;
+glyphname = Aacute;
+layers = (
+{
+layerId = "E777F328-EA17-4AE7-9EBA-8002E537BA4F";
+name = Light;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (107,0);
+ref = acutecomb.case;
+}
+);
+width = 729;
+},
+{
+layerId = "39185045-6A8C-415A-8312-7B8F11386A4C";
+name = Regular;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (78,0);
+ref = acutecomb.case;
+}
+);
+width = 729;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(365,778,l),
+(369,777,o),
+(376,778,o),
+(387,779,cs),
+(397,781,o),
+(410,783,o),
+(424,785,cs),
+(453,791,o),
+(488,798,o),
+(521,808,cs),
+(554,818,o),
+(584,830,o),
+(602,844,c),
+(508,938,l),
+(316,830,l)
+);
+}
+);
+};
+layerId = "B26750D4-52C5-4F85-819B-BFB2F142DAD5";
+name = Bold;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (219,0);
+ref = acutecomb.case;
+}
+);
+width = 781;
+}
+);
+unicode = 193;
+}

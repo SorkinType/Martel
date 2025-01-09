@@ -1,0 +1,98 @@
+{
+glyphname = "anusvara-deva";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (-158,634);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(-153,722,l),
+(-76,801,l),
+(-154,879,l),
+(-231,800,l)
+);
+}
+);
+};
+layerId = "E777F328-EA17-4AE7-9EBA-8002E537BA4F";
+name = Light;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-216,785,l),
+(-153,722,l),
+(-90,785,l),
+(-153,848,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (-153,650);
+}
+);
+layerId = "39185045-6A8C-415A-8312-7B8F11386A4C";
+name = Regular;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-231,800,l),
+(-153,722,l),
+(-76,801,l),
+(-154,879,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (-153,669);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(-153,722,l),
+(-76,801,l),
+(-154,879,l),
+(-231,800,l)
+);
+}
+);
+};
+layerId = "B26750D4-52C5-4F85-819B-BFB2F142DAD5";
+name = Bold;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-265,834,l),
+(-153,722,l),
+(-42,834,l),
+(-153,945,l)
+);
+}
+);
+width = 0;
+}
+);
+unicode = 2306;
+}

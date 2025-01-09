@@ -1,0 +1,59 @@
+{
+glyphname = acute.cap;
+layers = (
+{
+layerId = "E777F328-EA17-4AE7-9EBA-8002E537BA4F";
+name = Light;
+shapes = (
+{
+closed = 1;
+nodes = (
+(248,785,l),
+(307,809,o),
+(377,848,o),
+(423,884,c),
+(372,938,l),
+(227,806,l)
+);
+}
+);
+width = 519;
+},
+{
+layerId = "39185045-6A8C-415A-8312-7B8F11386A4C";
+name = Regular;
+shapes = (
+{
+closed = 1;
+nodes = (
+(253,785,l),
+(313,795,o),
+(387,826,o),
+(448,865,c),
+(376,938,l),
+(227,811,l)
+);
+}
+);
+width = 519;
+},
+{
+layerId = "B26750D4-52C5-4F85-819B-BFB2F142DAD5";
+name = Bold;
+shapes = (
+{
+closed = 1;
+nodes = (
+(152,778,l),
+(216,782,o),
+(345,810,o),
+(389,844,c),
+(295,938,l),
+(103,830,l)
+);
+}
+);
+width = 442;
+}
+);
+}

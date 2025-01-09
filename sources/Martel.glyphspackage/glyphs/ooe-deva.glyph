@@ -1,0 +1,54 @@
+{
+glyphname = "ooe-deva";
+layers = (
+{
+layerId = "E777F328-EA17-4AE7-9EBA-8002E537BA4F";
+name = Light;
+shapes = (
+{
+ref = "aa-deva";
+},
+{
+pos = (1024,0);
+ref = uni093A;
+}
+);
+width = 1024;
+},
+{
+layerId = "39185045-6A8C-415A-8312-7B8F11386A4C";
+name = Regular;
+shapes = (
+{
+ref = "aa-deva";
+},
+{
+pos = (1156,0);
+ref = uni093A;
+}
+);
+width = 1150;
+},
+{
+guides = (
+{
+angle = 90;
+pos = (1092,427);
+}
+);
+layerId = "B26750D4-52C5-4F85-819B-BFB2F142DAD5";
+name = Bold;
+shapes = (
+{
+ref = "aa-deva";
+},
+{
+pos = (1181,0);
+ref = uni093A;
+}
+);
+width = 1182;
+}
+);
+unicode = 2420;
+}

@@ -1,0 +1,51 @@
+{
+glyphname = dcaron;
+layers = (
+{
+layerId = "E777F328-EA17-4AE7-9EBA-8002E537BA4F";
+name = Light;
+shapes = (
+{
+ref = d;
+},
+{
+alignment = -1;
+pos = (537,0);
+ref = caron.alt;
+}
+);
+width = 704;
+},
+{
+layerId = "39185045-6A8C-415A-8312-7B8F11386A4C";
+name = Regular;
+shapes = (
+{
+ref = d;
+},
+{
+alignment = -1;
+pos = (544,0);
+ref = caron.alt;
+}
+);
+width = 711;
+},
+{
+layerId = "B26750D4-52C5-4F85-819B-BFB2F142DAD5";
+name = Bold;
+shapes = (
+{
+ref = d;
+},
+{
+alignment = -1;
+pos = (584,0);
+ref = caron.alt;
+}
+);
+width = 751;
+}
+);
+unicode = 271;
+}

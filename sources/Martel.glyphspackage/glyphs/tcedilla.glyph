@@ -1,0 +1,46 @@
+{
+color = 9;
+glyphname = tcedilla;
+layers = (
+{
+layerId = "E777F328-EA17-4AE7-9EBA-8002E537BA4F";
+shapes = (
+{
+ref = t;
+},
+{
+pos = (80,0);
+ref = cedillacomb;
+}
+);
+width = 421;
+},
+{
+layerId = "39185045-6A8C-415A-8312-7B8F11386A4C";
+shapes = (
+{
+ref = t;
+},
+{
+pos = (36,0);
+ref = cedillacomb;
+}
+);
+width = 421;
+},
+{
+layerId = "B26750D4-52C5-4F85-819B-BFB2F142DAD5";
+shapes = (
+{
+ref = t;
+},
+{
+pos = (68,0);
+ref = cedillacomb;
+}
+);
+width = 451;
+}
+);
+unicode = 355;
+}
