@@ -5,10 +5,6 @@ axes = (
 {
 name = Weight;
 tag = wght;
-},
-{
-name = Width;
-tag = wdth;
 }
 );
 classes = (
@@ -53,9 +49,37 @@ customParameters = (
 name = fsType;
 value = (
 );
+},
+{
+name = blueScale;
+value = 0.04;
+},
+{
+name = blueShift;
+value = 0;
+},
+{
+name = blueFuzz;
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Use Extension Kerning";
+value = 1;
+},
+{
+name = "Use Line Breaks";
+value = 1;
+},
+{
+name = "Variable Font Origin";
+value = "39185045-6A8C-415A-8312-7B8F11386A4C";
 }
 );
-date = "2015-04-21 07:12:48 +0000";
+date = "2025-01-09 17:21:37 +0000";
 familyName = Martel;
 featurePrefixes = (
 {
@@ -1183,8 +1207,7 @@ tag = abvs;
 fontMaster = (
 {
 axesValues = (
-50,
-5
+50
 );
 customParameters = (
 {
@@ -1269,8 +1292,7 @@ stemValues = (
 },
 {
 axesValues = (
-89,
-5
+89
 );
 customParameters = (
 {
@@ -1357,8 +1379,7 @@ stemValues = (
 },
 {
 axesValues = (
-135,
-5
+135
 );
 customParameters = (
 {
@@ -1445,58 +1466,35 @@ stemValues = (
 instances = (
 {
 axesValues = (
-50,
-100
+50
 );
-instanceInterpolations = {
-"E777F328-EA17-4AE7-9EBA-8002E537BA4F" = 1;
-};
 name = UltraLight;
 weightClass = 200;
 },
 {
 axesValues = (
-65,
-100
+65
 );
-instanceInterpolations = {
-"39185045-6A8C-415A-8312-7B8F11386A4C" = 0.38462;
-"E777F328-EA17-4AE7-9EBA-8002E537BA4F" = 0.61538;
-};
 name = Light;
 weightClass = 300;
 },
 {
 axesValues = (
-77,
-100
+77
 );
-instanceInterpolations = {
-"39185045-6A8C-415A-8312-7B8F11386A4C" = 0.69231;
-"E777F328-EA17-4AE7-9EBA-8002E537BA4F" = 0.30769;
-};
 name = Regular;
 },
 {
 axesValues = (
-89,
-100
+89
 );
-instanceInterpolations = {
-"39185045-6A8C-415A-8312-7B8F11386A4C" = 1;
-};
 name = DemiBold;
 weightClass = 600;
 },
 {
 axesValues = (
-107,
-100
+107
 );
-instanceInterpolations = {
-"39185045-6A8C-415A-8312-7B8F11386A4C" = 0.6087;
-"B26750D4-52C5-4F85-819B-BFB2F142DAD5" = 0.3913;
-};
 isBold = 1;
 linkStyle = Regular;
 name = Bold;
@@ -1504,24 +1502,15 @@ weightClass = 700;
 },
 {
 axesValues = (
-121,
-100
+121
 );
-instanceInterpolations = {
-"39185045-6A8C-415A-8312-7B8F11386A4C" = 0.30435;
-"B26750D4-52C5-4F85-819B-BFB2F142DAD5" = 0.69565;
-};
 name = ExtraBold;
 weightClass = 800;
 },
 {
 axesValues = (
-135,
-100
+135
 );
-instanceInterpolations = {
-"B26750D4-52C5-4F85-819B-BFB2F142DAD5" = 1;
-};
 name = Heavy;
 weightClass = 900;
 }
@@ -2654,6 +2643,10 @@ key = vendorID;
 value = toff;
 }
 );
+settings = {
+fontType = variable;
+previewRemoveOverlap = 0;
+};
 stems = (
 {
 horizontal = 1;
