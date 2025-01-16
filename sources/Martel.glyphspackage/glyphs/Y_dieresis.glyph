@@ -90,6 +90,7 @@ shapes = (
 ref = Y;
 },
 {
+pos = (71,0);
 ref = dieresiscomb.case;
 }
 );
@@ -103,6 +104,7 @@ shapes = (
 ref = Y;
 },
 {
+pos = (102,0);
 ref = dieresiscomb.case;
 }
 );

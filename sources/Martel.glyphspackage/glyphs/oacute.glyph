@@ -122,7 +122,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (85,0);
+pos = (143,0);
 ref = acutecomb;
 }
 );
@@ -221,7 +221,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (8,0);
+pos = (76,0);
 ref = acutecomb;
 }
 );

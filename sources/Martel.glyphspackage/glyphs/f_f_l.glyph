@@ -2,6 +2,16 @@
 glyphname = f_f_l;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (386.333,0);
+},
+{
+name = caret_2;
+pos = (772.667,0);
+}
+);
 layerId = "E777F328-EA17-4AE7-9EBA-8002E537BA4F";
 name = Light;
 shapes = (
@@ -91,6 +101,16 @@ nodes = (
 width = 1159;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (386,0);
+},
+{
+name = caret_2;
+pos = (772,0);
+}
+);
 layerId = "39185045-6A8C-415A-8312-7B8F11386A4C";
 name = Regular;
 shapes = (
@@ -180,6 +200,16 @@ nodes = (
 width = 1158;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (427.667,0);
+},
+{
+name = caret_2;
+pos = (855.333,0);
+}
+);
 layerId = "B26750D4-52C5-4F85-819B-BFB2F142DAD5";
 name = Bold;
 shapes = (

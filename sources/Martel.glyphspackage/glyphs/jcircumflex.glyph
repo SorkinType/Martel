@@ -24,6 +24,7 @@ shapes = (
 ref = jdotless;
 },
 {
+pos = (-98,0);
 ref = circumflexcomb;
 }
 );
@@ -37,6 +38,7 @@ shapes = (
 ref = jdotless;
 },
 {
+pos = (-93,0);
 ref = circumflexcomb;
 }
 );

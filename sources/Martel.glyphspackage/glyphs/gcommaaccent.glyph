@@ -64,7 +64,7 @@ ref = g;
 },
 {
 angle = 180;
-pos = (481,631);
+pos = (503,546);
 ref = commaaccent;
 }
 );
@@ -79,7 +79,7 @@ ref = g;
 },
 {
 angle = 180;
-pos = (471,631);
+pos = (487,546);
 ref = commaaccent;
 }
 );

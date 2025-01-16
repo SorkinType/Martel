@@ -35,7 +35,7 @@ name = DevaHalfforms;
 },
 {
 automatic = 1;
-code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla D Eth Dcaron Dcroat E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcommaaccent H I IJ Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Ntilde O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scommaaccent T Tcaron Tcommaaccent U Uacute Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V W X Y Yacute Ydieresis Z Zacute Zcaron Zdotaccent Omega";
+code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Cdotaccent D Dcaron Dcroat Eth E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcommaaccent Gdotaccent H Hbar I IJ Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Ntilde O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scommaaccent Germandbls T Tcaron Tcedilla Tcommaaccent U Uacute Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent Omega";
 name = Uppercase;
 },
 {
@@ -77,9 +77,22 @@ value = 1;
 {
 name = "Variable Font Origin";
 value = "39185045-6A8C-415A-8312-7B8F11386A4C";
+},
+{
+name = "meta Table";
+value = (
+{
+data = "Latn, Deva";
+tag = dlng;
+},
+{
+data = "Latn, Deva";
+tag = slng;
 }
 );
-date = "2025-01-09 17:21:37 +0000";
+}
+);
+date = "2025-01-16 21:43:28 +0000";
 familyName = Martel;
 featurePrefixes = (
 {
@@ -296,16 +309,37 @@ tag = aalt;
 },
 {
 automatic = 1;
-code = "script dev2;
-sub eMatra-deva anusvara-deva by eMatra_anusvara-deva;
-sub eMatra-deva reph-deva by eMatra_reph-deva;
-sub eMatra-deva reph-deva anusvara-deva by eMatra_reph_anusvara-deva;
-sub aiMatra-deva anusvara-deva by aiMatra_anusvara-deva;
-sub aiMatra-deva reph-deva by aiMatra_reph-deva;
-sub aiMatra-deva reph-deva anusvara-deva by aiMatra_reph_anusvara-deva;
-sub reph-deva anusvara-deva by reph_anusvara-deva;
-sub rakar-deva uMatra-deva by rakar_uMatra-deva;
-sub rakar-deva uuMatra-deva by rakar_uuMatra-deva;
+code = "lookup ccmp_DFLT_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+	sub j' @CombiningTopAccents by jdotless;
+} ccmp_DFLT_1;
+
+lookup ccmp_Other_1 {
+	lookupflag 0;
+	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb circumflexcomb caroncomb brevecomb ringcomb tildecomb ogonekcomb];
+	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case ogonekcomb.case];
+	sub @Markscomb @Markscomb' by @MarkscombCase;
+	sub @Uppercase @Markscomb' by @MarkscombCase;
+} ccmp_Other_1;
+
+lookup ccmp_Other_2 {
+	lookupflag 0;
+	sub @Markscomb' @MarkscombCase by @MarkscombCase;
+	sub @MarkscombCase @Markscomb' by @MarkscombCase;
+} ccmp_Other_2;
+
+lookup ccmp_latn_1 {
+	lookupflag 0;
+	sub fi by f i;
+	sub fl by f l;
+	sub Ldot by L periodcentered.loclCAT.case;
+	sub ldot by l periodcentered.loclCAT;
+} ccmp_latn_1;
+
+script latn;
+lookup ccmp_latn_1;
 ";
 tag = ccmp;
 },
@@ -1224,7 +1258,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1125;
+value = 1230;
 },
 {
 name = winDescent;
@@ -1240,6 +1274,18 @@ value = -571;
 },
 {
 name = vheaVertLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 1125;
+},
+{
+name = hheaDescender;
+value = -571;
+},
+{
+name = hheaLineGap;
 value = 0;
 }
 );
@@ -1309,7 +1355,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1125;
+value = 1230;
 },
 {
 name = winDescent;
@@ -1325,6 +1371,18 @@ value = -571;
 },
 {
 name = vheaVertLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 1125;
+},
+{
+name = hheaDescender;
+value = -571;
+},
+{
+name = hheaLineGap;
 value = 0;
 }
 );
@@ -1396,7 +1454,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1125;
+value = 1230;
 },
 {
 name = winDescent;
@@ -1412,6 +1470,18 @@ value = -571;
 },
 {
 name = vheaVertLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 1125;
+},
+{
+name = hheaDescender;
+value = -571;
+},
+{
+name = hheaLineGap;
 value = 0;
 }
 );
