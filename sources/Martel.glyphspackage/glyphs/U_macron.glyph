@@ -10,8 +10,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (160,212);
-ref = macroncomb;
+pos = (160,0);
+ref = macroncomb.case;
 }
 );
 width = 770;
@@ -24,8 +24,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (160,212);
-ref = macroncomb;
+pos = (160,0);
+ref = macroncomb.case;
 }
 );
 width = 770;
@@ -38,8 +38,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (150,212);
-ref = macroncomb;
+pos = (150,0);
+ref = macroncomb.case;
 }
 );
 width = 787;

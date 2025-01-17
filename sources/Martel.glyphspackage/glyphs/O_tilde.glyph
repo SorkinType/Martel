@@ -73,7 +73,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (123,0);
+pos = (143,0);
 ref = tildecomb.case;
 }
 );
@@ -150,7 +150,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (125,0);
+pos = (135,0);
 ref = tildecomb.case;
 }
 );
@@ -272,7 +272,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (131,0);
+pos = (144,0);
 ref = tildecomb.case;
 }
 );
