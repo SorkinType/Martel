@@ -1302,18 +1302,18 @@ over = 16;
 pos = 1046;
 },
 {
-over = 8;
+over = 20;
 pos = 758;
 },
 {
-over = 18;
+over = 20;
 pos = 546;
 },
 {
-over = -15;
+over = -20;
 },
 {
-over = -16;
+over = -20;
 pos = -500;
 },
 {
@@ -1401,18 +1401,18 @@ over = 16;
 pos = 1046;
 },
 {
-over = 8;
+over = 20;
 pos = 758;
 },
 {
-over = 18;
+over = 20;
 pos = 546;
 },
 {
-over = -15;
+over = -20;
 },
 {
-over = -16;
+over = -20;
 pos = -500;
 },
 {
@@ -1498,18 +1498,18 @@ over = 16;
 pos = 1046;
 },
 {
-over = 8;
+over = 20;
 pos = 758;
 },
 {
-over = 18;
+over = 20;
 pos = 546;
 },
 {
-over = -15;
+over = -20;
 },
 {
-over = -16;
+over = -20;
 pos = -500;
 },
 {
@@ -1538,12 +1538,34 @@ instances = (
 axesValues = (
 50
 );
-name = UltraLight;
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+}
+);
+}
+);
+name = ExtraLight;
 weightClass = 200;
 },
 {
 axesValues = (
 65
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+}
+);
+}
 );
 name = Light;
 weightClass = 300;
@@ -1552,18 +1574,69 @@ weightClass = 300;
 axesValues = (
 77
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+}
+);
+}
+);
 name = Regular;
 },
 {
 axesValues = (
 89
 );
-name = DemiBold;
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 500;
+}
+);
+}
+);
+name = Medium;
+weightClass = 500;
+},
+{
+axesValues = (
+96
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+}
+);
+}
+);
+name = SemiBold;
 weightClass = 600;
 },
 {
 axesValues = (
 107
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+}
+);
+}
 );
 isBold = 1;
 linkStyle = Regular;
@@ -1574,6 +1647,17 @@ weightClass = 700;
 axesValues = (
 121
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 800;
+}
+);
+}
+);
 name = ExtraBold;
 weightClass = 800;
 },
@@ -1581,7 +1665,18 @@ weightClass = 800;
 axesValues = (
 135
 );
-name = Heavy;
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+}
+);
+}
+);
+name = Black;
 weightClass = 900;
 }
 );
@@ -2693,7 +2788,7 @@ Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
 },
 {
 key = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://openfontlicense.org/";
 },
 {
 key = manufacturers;

@@ -9,8 +9,7 @@ shapes = (
 ref = "a-deva";
 },
 {
-alignment = -1;
-pos = (572,0);
+pos = (820,0);
 ref = uni0957;
 }
 );
@@ -143,8 +142,7 @@ shapes = (
 ref = "a-deva";
 },
 {
-alignment = -1;
-pos = (641,0);
+pos = (915,0);
 ref = uni0957;
 }
 );

@@ -68,7 +68,7 @@ shapes = (
 ref = "ja-deva";
 },
 {
-pos = (524,26);
+pos = (218,139);
 ref = "nukta-deva";
 }
 );
