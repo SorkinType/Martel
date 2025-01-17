@@ -151,10 +151,12 @@ layerId = "39185045-6A8C-415A-8312-7B8F11386A4C";
 name = Regular;
 shapes = (
 {
+alignment = -1;
 ref = c;
 },
 {
-pos = (214,0);
+alignment = -1;
+pos = (150,1);
 ref = cedillacomb;
 }
 );

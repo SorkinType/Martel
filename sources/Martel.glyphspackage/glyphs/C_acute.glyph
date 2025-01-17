@@ -119,9 +119,11 @@ layerId = "39185045-6A8C-415A-8312-7B8F11386A4C";
 name = Regular;
 shapes = (
 {
+alignment = -1;
 ref = C;
 },
 {
+alignment = -1;
 pos = (57,0);
 ref = acutecomb.case;
 }
@@ -182,9 +184,11 @@ layerId = "B26750D4-52C5-4F85-819B-BFB2F142DAD5";
 name = Bold;
 shapes = (
 {
+alignment = -1;
 ref = C;
 },
 {
+alignment = -1;
 pos = (188,0);
 ref = acutecomb.case;
 }

@@ -1,5 +1,5 @@
 {
-.appVersion = "3337";
+.appVersion = "3340";
 .formatVersion = 3;
 axes = (
 {
@@ -1287,6 +1287,15 @@ value = -571;
 {
 name = hheaLineGap;
 value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+}
+);
 }
 );
 guides = (
@@ -1322,7 +1331,7 @@ pos = 634;
 {
 }
 );
-name = Light;
+name = ExtraLight;
 stemValues = (
 41,
 45,
@@ -1384,6 +1393,15 @@ value = -571;
 {
 name = hheaLineGap;
 value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 500;
+}
+);
 }
 );
 guides = (
@@ -1421,7 +1439,7 @@ pos = 650;
 {
 }
 );
-name = Regular;
+name = Medium;
 stemValues = (
 52,
 57,
@@ -1483,6 +1501,15 @@ value = -571;
 {
 name = hheaLineGap;
 value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+}
+);
 }
 );
 guides = (
@@ -1518,7 +1545,7 @@ pos = 669;
 {
 }
 );
-name = Bold;
+name = Black;
 stemValues = (
 80,
 94,
@@ -1639,7 +1666,6 @@ Location = 700;
 }
 );
 isBold = 1;
-linkStyle = Regular;
 name = Bold;
 weightClass = 700;
 },
@@ -2759,7 +2785,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2010-2015, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'";
+value = "Copyright 2015 The Martel Project Authors (https://github.com/SorkinType/Martel)";
 }
 );
 },
@@ -2782,7 +2808,7 @@ values = (
 {
 language = dflt;
 value = "This Font Software is licensed under the SIL Open Font License
-Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+Version 1.1. This license is available with a FAQ at: https://openfontlicense.org/";
 }
 );
 },
