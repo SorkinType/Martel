@@ -8,8 +8,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (105,212);
-ref = macroncomb;
+pos = (105,0);
+ref = macroncomb.case;
 }
 );
 width = 660;
@@ -21,8 +21,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (105,212);
-ref = macroncomb;
+pos = (105,0);
+ref = macroncomb.case;
 }
 );
 width = 660;
@@ -34,8 +34,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (98,212);
-ref = macroncomb;
+pos = (98,0);
+ref = macroncomb.case;
 }
 );
 width = 723;

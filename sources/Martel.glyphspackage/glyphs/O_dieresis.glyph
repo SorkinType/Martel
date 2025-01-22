@@ -82,7 +82,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (137,0);
+pos = (157,0);
 ref = dieresiscomb.case;
 }
 );
@@ -168,7 +168,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (121,0);
+pos = (131,0);
 ref = dieresiscomb.case;
 }
 );
@@ -311,7 +311,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (131,0);
+pos = (144,0);
 ref = dieresiscomb.case;
 }
 );

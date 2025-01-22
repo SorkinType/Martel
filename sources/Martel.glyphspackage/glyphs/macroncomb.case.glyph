@@ -1,0 +1,83 @@
+{
+glyphname = macroncomb.case;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (225,758);
+},
+{
+name = top;
+pos = (225,988);
+}
+);
+layerId = "E777F328-EA17-4AE7-9EBA-8002E537BA4F";
+name = Light;
+shapes = (
+{
+closed = 1;
+nodes = (
+(95,881,l),
+(354,881,l),
+(354,938,l),
+(95,938,l)
+);
+}
+);
+width = 444;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (225,758);
+},
+{
+name = top;
+pos = (225,989);
+}
+);
+layerId = "39185045-6A8C-415A-8312-7B8F11386A4C";
+name = Regular;
+shapes = (
+{
+closed = 1;
+nodes = (
+(95,877,l),
+(354,877,l),
+(354,949,l),
+(95,949,l)
+);
+}
+);
+width = 432;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (264,758);
+},
+{
+name = top;
+pos = (264,985);
+}
+);
+layerId = "B26750D4-52C5-4F85-819B-BFB2F142DAD5";
+name = Bold;
+shapes = (
+{
+closed = 1;
+nodes = (
+(136,848,l),
+(412,848,l),
+(412,965,l),
+(136,965,l)
+);
+}
+);
+width = 528;
+}
+);
+}

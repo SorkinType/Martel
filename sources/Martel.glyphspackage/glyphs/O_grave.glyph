@@ -59,7 +59,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (160,0);
+pos = (180,0);
 ref = gravecomb.case;
 }
 );
@@ -122,7 +122,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (143,0);
+pos = (153,0);
 ref = gravecomb.case;
 }
 );
@@ -227,7 +227,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (146,0);
+pos = (159,0);
 ref = gravecomb.case;
 }
 );
